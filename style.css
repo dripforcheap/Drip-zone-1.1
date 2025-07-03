@@ -1,85 +1,43 @@
-/* Reset and base styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-    min-height: 100vh;
+    background-color: #000;
+    color: white;
+}
+.navbar {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 1em 2em;
 }
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
 }
-nav {
-    background-color: #444;
-    text-align: center;
-    padding: 0.5rem 0;
-}
-nav a {
-    color: #fff;
-    margin: 0 1rem;
+.navbar nav a {
+    margin: 0 1em;
     text-decoration: none;
-}
-nav a:hover {
-    text-decoration: underline;
-}
-main {
-    padding: 2rem;
-    flex: 1;
-}
-.products {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-.product {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1rem;
-    text-align: center;
-    flex: 1 1 300px;
-    max-width: 300px;
-}
-.product img {
-    width: 100%;
-    border-radius: 8px;
-}
-.product h2 {
-    margin: 1rem 0;
-}
-.product a {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #333;
     color: #fff;
-    text-decoration: none;
+}
+.search-bar {
+    padding: 0.5em;
     border-radius: 5px;
+    border: none;
 }
-.product a:hover {
-    background-color: #555;
-}
-.vendor {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin: 1rem 0;
-    padding: 1rem;
-}
-footer {
-    background-color: #333;
-    color: #fff;
+.title {
     text-align: center;
-    padding: 1rem;
+    margin-top: 1em;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1em;
+    padding: 2em;
+}
+.product-card {
+    background-color: #1a1a1a;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
 }
