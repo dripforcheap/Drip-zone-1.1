@@ -8,39 +8,42 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #ffffff;
-      padding: 40px;
+      background-color: #fff;
+      padding: 20px;
       text-align: center;
     }
     .header {
       font-size: 32px;
       font-weight: bold;
       color: #2c3e50;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
-    .message {
-      font-size: 18px;
-      color: #444;
-      margin-bottom: 30px;
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      background-color: #f9f9f9;
+      border: 2px solid #444;
+      border-radius: 10px;
+      padding: 20px;
     }
-    .message a {
-      color: #0077cc;
-      text-decoration: none;
+    h2 {
+      color: #333;
+    }
+    ol, ul {
+      text-align: left;
+      line-height: 1.6;
+      color: #555;
+    }
+    .warning {
+      color: red;
       font-weight: bold;
     }
-    .pay-button {
-      background-color: #28a745;
-      color: white;
-      padding: 15px 30px;
+    .prices {
+      margin-top: 20px;
       font-size: 18px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-    }
-    .pay-button:hover {
-      background-color: #218838;
+      color: #222;
     }
   </style>
 </head>
@@ -48,12 +51,25 @@
 
   <div class="header">Best and Cheap Vendors</div>
 
-  <div class="message">
-    Please <a href="https://www.instagram.com/mr.takeyabitcheveryday/" target="_blank">DM us on Instagram</a> and send proof after you pay,<br>
-    so we can give you the vendor link.
-  </div>
+  <div class="container">
+    <h2>💵 Paying with Cash App?</h2>
+    <ol>
+      <li>Send your payment on Cash App to <strong>$justin4ever142011</strong>.</li>
+      <li><strong>Take a screenshot</strong> of your payment confirmation.</li>
+      <li><strong>DM us on Instagram</strong> <a href="https://www.instagram.com/mr.takeyabitcheveryday/" target="_blank">@mr.takeyabitcheveryday</a> with the screenshot.</li>
+      <li>Once confirmed, <strong>we’ll send you the vendor link</strong>.</li>
+    </ol>
+    <p class="warning">⚠️ Don’t forget: You must send proof to receive the vendor list!</p>
 
-  <a class="pay-button" href="https://cash.app/$justin4ever142011" target="_blank">Pay Now</a>
+    <div class="prices">
+      <h3>📦 Product Prices</h3>
+      <ul>
+        <li>AirPods – $15</li>
+        <li>Jordans 4 – $25</li>
+        <li>Spider Hoodies – $12</li>
+      </ul>
+    </div>
+  </div>
 
 </body>
 </html>
