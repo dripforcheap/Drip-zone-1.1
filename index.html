@@ -4,31 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <title>Cheap Drip</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .header {
+            font-size: 3em;
+            margin: 30px 0;
+            color: #e0c7a8;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 30px;
+        }
+        .product {
+            background-color: #000;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin: 10px 0 5px;
+        }
+        .product p {
+            margin: 0 0 10px;
+        }
+        .buy-button {
+            background-color: #d2b48c;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #ccc;
+        }
+    </style>
 </head>
 <body>
-    <h1 class="title">CHEAP DRIP</h1>
+    <div class="header">CHEAP DRIP</div>
     <div class="products">
         <div class="product">
-            <img src="airpods.jpg" alt="AirPods">
-            <h2>AirPods</h2>
+            <img src="images/airpods.jpg" alt="AirPods">
+            <h3>AirPods</h3>
             <p>$15</p>
-            <a href="https://square.link/u/T8HCLTqF" target="_blank" class="btn">Buy Now</a>
+            <a href="https://square.link/u/T8HCLTqF" class="buy-button">Buy Now</a>
         </div>
         <div class="product">
-            <img src="spider.jpg" alt="Spider Hoodie">
-            <h2>Spider Hoodie</h2>
+            <img src="images/spider_hoodie.jpg" alt="Spider Hoodie">
+            <h3>Spider Hoodie</h3>
             <p>$12</p>
-            <a href="https://square.link/u/vYX507sH" target="_blank" class="btn">Buy Now</a>
+            <a href="https://square.link/u/vYX507sH" class="buy-button">Buy Now</a>
         </div>
         <div class="product">
-            <img src="jordan.jpg" alt="Jordan 4">
-            <h2>Jordan 4</h2>
+            <img src="images/jordan4.jpg" alt="Jordan 4">
+            <h3>Jordan 4</h3>
             <p>$25</p>
-            <a href="https://square.link/u/rUlew2jr" target="_blank" class="btn">Buy Now</a>
+            <a href="https://square.link/u/rUlew2jr" class="buy-button">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="images/cologne.jpg" alt="Cologne">
+            <h3>Cologne</h3>
+            <p>$18</p>
+            <a href="https://square.link/u/F4hzVySS" class="buy-button">Buy Now</a>
         </div>
     </div>
-    <p class="footer">After purchase, DM us on Instagram with proof of payment <strong>mr.takeyabitcheveryday</strong><br>
-    Don’t want it? Refund in 3-5 business days.</p>
+    <div class="footer">
+        After purchase, DM us on Instagram with proof of payment @mr.takeyabitcheveryday<br>
+        Don’t want it? Refund in 3–5 business days.
+    </div>
 </body>
 </html>
